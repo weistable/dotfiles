@@ -1,4 +1,4 @@
-/*{
+{
     "custom/quicklink1": {
         "format": " ",
         "on-click": "~/.config/ml4w/apps/ML4W_Hyprland_Settings-x86_64.AppImage",
@@ -26,4 +26,3 @@
         ]
     }
 }
-*/
