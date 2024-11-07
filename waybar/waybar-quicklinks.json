@@ -6,13 +6,13 @@
     }, 
     "custom/quicklink2": {
         "format": " ",
-        "on-click": "~/.config/ml4w/settings/browser.sh",
-        "tooltip-format": "Open the browser"
+        "on-click": "firefox",
+        "tooltip-format": "Open the firefox"
     },
     "custom/quicklink3": {
         "format": " ",
-        "on-click": "~/.config/ml4w/settings/filemanager.sh",
-        "tooltip-format": "Open the filemanager"
+        "on-click": "yazi",
+        "tooltip-format": "Open the yazi"
     }, 
     "custom/quicklinkempty": {
     }, 
