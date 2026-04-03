@@ -7,8 +7,6 @@ include "./keybindings.kdl"
 include "./windowrules.kdl"
 include "./noctalia-shell.kdl"
 
-// intel gpu render
-render-device "/dev/dri/by-path/pci-0000:00:02.0-render"
 
 // Input device configuration.
 // Find the full list of options on the wiki:
