@@ -310,6 +310,15 @@ animations {
     // slowdown 3.0
 }
 
+// cursor theme
+// ... 你原来的配置保持不变 ...
+
+// 在文件最底部加入下面内容
+cursor {
+    xcursor-theme "Bibata-Modern-Ice"
+    xcursor-size 24
+}
+
 // Window rules let you adjust behavior for individual windows.
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Window-Rules
