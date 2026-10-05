@@ -307,8 +307,9 @@ binds {
     Mod+Shift+P { power-off-monitors; }
 
     // Utility shortcuts
-    Mod+Shift+V { spawn "noctalia-shell" "ipc" "call" "launcher" "clipboard"; }
-    // Mod+C { spawn "noctalia-shell" "ipc" "call" "launcher" "calculator"; }
-    Mod+S { spawn "noctalia-shell" "ipc" "call" "controlCenter" "toggle"; }
-    Mod+E { spawn "noctalia-shell" "ipc" "call" "sessionMenu" "toggle"; }
+    Mod+Shift+V { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
+    //Mod+C { spawn "noctalia" "msg" "panel-toggle" "launcher" "/calc"; }
+
+    Mod+S { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
+    Mod+E { spawn "noctalia" "msg" "panel-toggle" "session"; }
 }
